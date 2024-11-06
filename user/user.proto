@@ -178,7 +178,7 @@ message onlineStatus {
   string userID = 1;
   int32 status = 2;
   repeated int32 platformIDs = 3;
-  repeated string gatewayConnIDS = 4;
+  repeated string gatewayConnIDs = 4;
 }
 
 message getUserStatusReq {
