@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/amazing-socrates/next-protocol/constant"
-	"github.com/amazing-socrates/next-protocol/util/datautil"
+	"github.com/openimsdk/protocol/constant"
+	"github.com/openimsdk/protocol/util/datautil"
 )
 
 func (x *GetAllUserIDReq) Check() error {

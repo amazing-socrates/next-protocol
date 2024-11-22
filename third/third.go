@@ -16,7 +16,7 @@ package third
 
 import (
 	"errors"
-	"github.com/amazing-socrates/next-protocol/constant"
+	"github.com/openimsdk/protocol/constant"
 )
 
 func (x *FcmUpdateTokenReq) Check() error {

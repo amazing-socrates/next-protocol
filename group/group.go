@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/amazing-socrates/next-protocol/constant"
+	"github.com/openimsdk/protocol/constant"
 )
 
 func (x *CreateGroupReq) Check() error {

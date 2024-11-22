@@ -19,7 +19,7 @@ import "conversation/conversation.proto";
 import "sdkws/sdkws.proto";
 import "wrapperspb/wrapperspb.proto";
 
-option go_package = "github.com/amazing-socrates/next-protocol/user";
+option go_package = "github.com/openimsdk/protocol/user";
 
 message getAllUserIDReq {
   sdkws.RequestPagination pagination = 1;
@@ -178,7 +178,6 @@ message onlineStatus {
   string userID = 1;
   int32 status = 2;
   repeated int32 platformIDs = 3;
-  repeated string gatewayConnIDs = 4;
 }
 
 message getUserStatusReq {

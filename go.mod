@@ -1,4 +1,4 @@
-module github.com/amazing-socrates/next-protocol
+module github.com/openimsdk/protocol
 
 go 1.18
 
